@@ -5,7 +5,7 @@ It also handles configuration changes that is useful in these two cases:
   - If it happens during the download process, it will save/restore progress bar with the the image file name.
   - If it happens after the download finishes, it will save/restore the bitmap.
   
-The communication between the service and the main UI thread uses two different approaches:
+The communication between the thread and the main UI thread uses two different approaches:
   -  A Handler component.
   -  A reference to a retained fragment (which is not destroyed during configuration changes). 
 
